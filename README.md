@@ -1,6 +1,4 @@
 ---
-output: github_document
----
 
 # sensiverse
 
