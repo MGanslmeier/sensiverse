@@ -1,0 +1,19 @@
+Type: Package
+Package: sensiverse
+Title: Sensitivity and Model Uncertainty Analysis
+Version: 0.0.1
+Authors@R: c(
+    person("Michael", "Ganslmeier", role = c("aut", "cre"),
+           email = "m.ganslmeier@exeter.ac.uk"),
+    person("Tim", "Vlandas", role = "aut",
+           email = "t.vlandas@spi.ox.ac.uk"))
+Description: Tools to estimate large model spaces, analyze uncertainty via multinomial logit, neural nets, and neighbour changes. The package is based on the PNAS article Ganslmeier and Vlandas (2025): Estimating the extent and sources of model uncertainty in political science
+License: MIT + file LICENSE
+Imports: dplyr, purrr, tibble, stringr, ggplot2, lmtest, sandwich, multiwayvcov, nnet, caret, pbapply
+Suggests: keras, tensorflow, vip, iml, testthat, knitr, rmarkdown
+Encoding: UTF-8
+LazyData: false
+RoxygenNote: 7.3.1
+VignetteBuilder: knitr
+URL: https://www.pnas.org/doi/10.1073/pnas.2414926122
+BugReports: https://github.com/MGanslmeier/sensiverse/issues

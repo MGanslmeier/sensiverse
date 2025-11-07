@@ -1,0 +1,25 @@
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>/404.html</loc></url>
+<url><loc>/LICENSE-text.html</loc></url>
+<url><loc>/LICENSE.html</loc></url>
+<url><loc>/authors.html</loc></url>
+<url><loc>/index.html</loc></url>
+<url><loc>/reference/calculate_sign_shares.html</loc></url>
+<url><loc>/reference/dot-build_formula.html</loc></url>
+<url><loc>/reference/dot-fes_to_formula.html</loc></url>
+<url><loc>/reference/estimate_model_space.html</loc></url>
+<url><loc>/reference/filter_model_space.html</loc></url>
+<url><loc>/reference/find_uncertainty_source_mlogit.html</loc></url>
+<url><loc>/reference/find_uncertainty_source_neigh.html</loc></url>
+<url><loc>/reference/find_uncertainty_source_neuronet.html</loc></url>
+<url><loc>/reference/index.html</loc></url>
+<url><loc>/reference/make_source_dataset.html</loc></url>
+<url><loc>/reference/plot_importance_mlogit.html</loc></url>
+<url><loc>/reference/plot_importance_neigh.html</loc></url>
+<url><loc>/reference/plot_importance_neuronet.html</loc></url>
+<url><loc>/reference/plot_sign_share.html</loc></url>
+<url><loc>/reference/pp_change_by_feature.html</loc></url>
+<url><loc>/reference/safe_predict_probs.html</loc></url>
+<url><loc>/reference/sensiverse-package.html</loc></url>
+</urlset>
+

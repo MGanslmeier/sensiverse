@@ -1,0 +1,37 @@
+\nonstopmode{}
+\documentclass[a4paper]{book}
+\usepackage[times,inconsolata,hyper]{Rd}
+\usepackage{makeidx}
+\usepackage[utf8]{inputenc} % @SET ENCODING@
+% \usepackage{graphicx} % @USE GRAPHICX@
+\makeindex{}
+\begin{document}
+\chapter*{}
+\begin{center}
+{\textbf{\huge Package `sensiverse'}}
+\par\bigskip{\large \today}
+\end{center}
+\inputencoding{utf8}
+\ifthenelse{\boolean{Rd@use@hyper}}{\hypersetup{pdftitle = {sensiverse: Sensitivity and Model Uncertainty Analysis}}}{}
+\ifthenelse{\boolean{Rd@use@hyper}}{\hypersetup{pdfauthor = {Michael Ganslmeier; Tim Vlandas}}}{}
+\begin{description}
+\raggedright{}
+\item[Type]\AsIs{Package}
+\item[Title]\AsIs{Sensitivity and Model Uncertainty Analysis}
+\item[Version]\AsIs{0.0.1}
+\item[Description]\AsIs{Tools to estimate large model spaces, analyze uncertainty via multinomial logit, neural nets, and neighbour changes. 
+The package reproduces figures from the paper by 
+Michael Ganslmeier and Tim Vlandas (2025), 
+``Estimating the extent and sources of model uncertainty in political science'', 
+published in the Proceedings of the National Academy of Sciences (<}\Rhref{https://doi.org/10.1073/pnas.2414926122}{doi:10.1073/pnas.2414926122}\AsIs{>).}
+\item[License]\AsIs{MIT + file LICENSE}
+\item[Imports]\AsIs{dplyr, purrr, tibble, stringr, ggplot2, lmtest, sandwich, multiwayvcov, nnet, caret, pbapply, pbmcapply}
+\item[Suggests]\AsIs{keras, tensorflow, vip, iml, testthat, knitr, rmarkdown}
+\item[Encoding]\AsIs{UTF-8}
+\item[LazyData]\AsIs{false}
+\item[RoxygenNote]\AsIs{7.3.1}
+\item[VignetteBuilder]\AsIs{knitr}
+\item[URL]\AsIs{}\url{https://www.pnas.org/doi/10.1073/pnas.2414926122}\AsIs{, }\url{https://MGanslmeier.github.io/sensiverse}\AsIs{}
+\item[BugReports]\AsIs{}\url{https://github.com/MGanslmeier/sensiverse/issues}\AsIs{}
+\end{description}
+\Rdcontents{\R{} topics documented:}
