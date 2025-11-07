@@ -1,2 +1,17 @@
-inst/doc
-.Rproj.user
+# macOS junk
+.DS_Store
+
+# RStudio and R build artifacts
+.Rproj.user/
+*.Rproj
+.Rhistory
+.RData
+
+# Temporary / cache
+*_cache/
+*.pdf
+*.tex
+*.Rd2pdf*
+*.Rout
+*.o
+*.so
