@@ -48,7 +48,7 @@ remotes::install_github("mganslmeier/sensiverse")
 
 ## Quick Start Example
 
-Here’s a minimal workflow illustrating core functionality: [https://mganslmeier.github.io/sensiverse/](https://mganslmeier.github.io/sensiverse/)
+Here’s a minimal workflow illustrating core functionality: [https://mganslmeier.github.io/sensiverse-tutorial/](https://mganslmeier.github.io/sensiverse-tutorial/)
 
 ---
 
